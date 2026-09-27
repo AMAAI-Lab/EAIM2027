@@ -1,670 +1,180 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>1st Workshop on Emerging AI Technologies for Music</title>
-      <!-- CSS -->
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:700,300,400">
-      <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-      <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
-      <link rel="stylesheet" href="assets/elegant-font/code/style.css">
-      <link rel="stylesheet" href="assets/css/animate.css">
-      <link rel="stylesheet" href="assets/css/magnific-popup.css">
-      <link rel="stylesheet" href="assets/css/form-elements.css">
-      <link rel="stylesheet" href="assets/css/style.css">
-      <link rel="stylesheet" href="assets/css/media-queries.css">
-      <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
-      <!-- Favicon -->
-      <link rel="shortcut icon" href="assets/ico/favi.png">
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-W2W1BTQQ0R"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
-         
-         gtag('config', 'G-W2W1BTQQ0R');
-      </script>
-   </head>
-   <body>
-      <!-- Loader -->
-      <div class="loader">
-         <div class="loader-img"></div>
-      </div>
-      <!-- Top menu -->
-      <nav class="navbar navbar-fixed-top" role="navigation">
-         <div class="container">
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               </button>
-               <a class="navbar-brand" href="index.html">EAIM Workshop</a>
-            </div>
-            <div class="collapse navbar-collapse" id="top-navbar-1">
-               <ul class="nav navbar-nav navbar-right">
-                  <li><a class="scroll-link" href="#top-content">Top</a></li>
-                  <li><a class="scroll-link" href="#what-we-do">Description</a></li>
-                  <li><a class="scroll-link" href="#schedule">Schedule</a></li>
-                  <li><a class="scroll-link" href="#cfp">Call for Papers</a></li>
-                  <li><a class="scroll-link" href="#portfolio">Speakers</a></li>
-                  <li><a class="scroll-link" href="#about">Organizers</a></li>
-                  <li><a class="scroll-link" href="#contact">Contact</a></li>
-               </ul>
-            </div>
-         </div>
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#122b2d">
+  <meta name="description" content="EAIM 2027 at AAAI-27: the 2nd Workshop on Emerging AI Technologies for Music. Call for papers on human agency and creativity in collaborative AI systems.">
+  <meta property="og:title" content="EAIM 2027 · Emerging AI Technologies for Music">
+  <meta property="og:description" content="Human agency and creativity in collaborative AI systems. Join the second EAIM workshop at AAAI-27 in Montréal, Canada.">
+  <meta property="og:type" content="website">
+  <title>EAIM 2027 · Emerging AI Technologies for Music · AAAI-27</title>
+  <link rel="icon" href="assets/ico/favi.png">
+  <link rel="stylesheet" href="assets/css/eaim-2027.css">
+  <script src="assets/js/eaim-2027.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="EAIM 2027 home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>EAIM<span class="brand-year">2027</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">☰</span></button>
+      <nav id="site-nav" aria-label="Main navigation">
+        <a href="#overview">Overview</a><a href="#cfp">Call for papers</a><a href="#dates">Dates</a><a href="#speakers">Speakers</a><a href="#organisers">Organisers</a><a href="#faq">FAQ</a>
       </nav>
-      <!-- Page title -->
-      <div class="page-title top-content">
-         <div class="page-title-text wow fadeInUp">
-            <h1>1st International Workshop on Emerging AI Technologies for Music</h1>
-            <p><b>Held in conjunction with AAAI-26</b></p>
-            <p>26th January 2026, Singapore</p>
-            <div class="page-title-bottom-link">
-               <a class="big-link-1 btn scroll-link" href="#cfp"><b>Call for Papers</b></a>
-               <a class="big-link-2 btn scroll-link" href="#portfolio"><b>Speakers</b></a>
-            </div>
-         </div>
+      <a class="header-link" href="https://aaai.org/conference/aaai/aaai-27/">AAAI-27 <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> 2nd EAIM workshop · AAAI-27</p>
+        <h1 id="hero-title">Emerging AI<br>Technologies<br>for <span>Music.</span></h1>
+        <p class="hero-theme">Human agency and creativity<br>in collaborative AI systems</p>
+        <p class="hero-location">Montréal, Canada <span aria-hidden="true">·</span> February 2027</p>
+        <div class="hero-actions"><a class="button button-dark" href="#cfp">Call for papers <span aria-hidden="true">↗</span></a><a class="text-link" href="#dates">Important dates <span aria-hidden="true">↓</span></a></div>
       </div>
-      <!-- Workshop Description -->
-      <div class="block-3-container section-container what-we-do-container" id="what-we-do">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12 block-2-left section-description wow fadeIn">
-                  <!-- New centered H1 with logo -->
-                  <h1 style="text-align:center; margin-bottom:40px;">
-                     <img src="assets/img/eaim.jpeg" alt="EAIM Workshop Logo"
-                        style="max-width:660px; width:100%; height:auto; display:block; margin:0 auto 20px;">
-                     1st International Workshop on Emerging AI Technologies for Music
-                  </h1>
-                  <br></br>
-                  <h3>Workshop Description</h3>
-                  <div class="divider-1 wow fadeInUp"><span></span></div>
-                  <p>
-                     This full day workshop, part of a new annual series on the latest developments in AI for music, explores how AI can become a true creative collaborator rather than just another automation tool. As AI transforms music composition, performance, and production, we're seeing an exciting shift from fully autonomous systems toward human-centered approaches. We aim to explore the latest research in human-centric AI for music and discuss how systems can empower humans to shape AI outputs through intuitive interfaces, interactive workflows, interpretable systems and meaningful user-controls. As the field is increasingly shifting toward co-creative and controllable systems, we’ll dive into cutting-edge research and discuss how meaningful musical outcomes can arise through human-machine collaboration. Join us for this inaugural workshop as we explore how to design AI that enhances rather than overshadows human musical creativity.
-                  </p>
-                  <div style="margin-top:25px; padding:20px; background:#f5f8ff; border-left:5px solid #2BA560;">
-                     <h4 style="margin-top:0;"><strong>Workshop Proceedings</strong></h4>
-                     <p style="margin-bottom:10px;">
-                        The final proceedings of the <b>1st International Workshop on Emerging AI Technologies for Music (EAIM 2026)</b> 
-                        are now available as an official volume in the Proceedings of Machine Learning Research (PMLR).
-                     </p>
-                     <p style="margin-bottom:0;">
-                        The volume includes peer-reviewed papers presented at the workshop, covering recent advances in 
-                        AI-driven music composition, generation, interaction, and human–AI co-creativity.
-                        <br/><br/>
-                        <a href="https://proceedings.mlr.press/v303/" target="_blank" style="font-weight:bold; color:#2BA560;">
-                           Access the EAIM 2026 PMLR volume
-                        </a>
-                     </p>
-                  </div>
-                  <div style="margin-top:30px; padding:20px; background:#f9f9f9; border-left:5px solid #2BA560;">
-                     <h4 style="margin-top:0;"><strong>Workshop Details</strong></h4>
-                     <p style="margin-bottom:10px;">
-                        <strong>Date:</strong> 26 January 2026 (Monday)<br/>
-                        <strong>Time:</strong> 8:30 AM – 5:00 PM (Full-day workshop)
-                     </p>
-                     <p style="margin-bottom:10px;">
-                        <strong>Venue:</strong><br/>
-                        Grand Mercure Roxy Hotel<br/>
-                        50 East Coast Road, Roxy Square<br/>
-                        Singapore 428769
-                     </p>
-                     <p style="margin-bottom:10px;">
-                        The EAIM workshop will be held at a <strong>satellite venue</strong> assigned by AAAI. 
-                        The venue offers full onsite AV support, a dedicated poster room, scheduled refreshment breaks, 
-                        and badge pickup facilities for attendees who have not collected their badges at the Singapore EXPO.
-                     </p>
-                     <p style="margin-bottom:0;">
-                        <strong>Shuttle Bus Service:</strong><br/>
-                        Morning shuttles will depart from each official event hotel at <strong>8:00 AM</strong>, arriving in time for the <strong>8:30 AM</strong> workshop start.<br/>
-                        Evening return buses will depart the venue at <strong>5:30 PM</strong>.
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-topline"><span>HUMAN × AI</span><span>EAIM / 02</span></div>
+        <img src="assets/img/2027/resonance.svg" alt="" width="620" height="650" fetchpriority="high">
+        <div class="art-bottomline"><span>A space for research.<br>A place for creative exchange.</span><span>MONTRÉAL<br>2027</span></div>
       </div>
-      <div class="schedule-container section-container" id="schedule">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12 section-description wow fadeIn">
-                  <h3>Workshop Schedule</h3>
-                  <div class="divider-1 wow fadeInUp"><span></span></div>
-                  <p>
-                     Join us for a full day of keynotes, oral presentations, and discussions on the future of AI and Music.
-                  </p>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-sm-12 wow fadeInUp">
-                  <div class="table-responsive">
-                     <table class="table table-hover" style="text-align: left; background: #fff; border: 1px solid #ddd;">
-                        <thead style="background-color: #f8f8f8; font-weight: bold;">
-                           <tr>
-                              <th style="width: 15%; padding: 15px;">Time</th>
-                              <th style="width: 85%; padding: 15px;">Activity</th>
-                           </tr>
-                        </thead>
-                        <tbody>
-                           <tr>
-                              <td style="padding: 15px;">08:30</td>
-                              <td style="padding: 15px;"><strong>Networking</strong></td>
-                           </tr>
-                           <tr>
-                              <td style="padding: 15px;">09:00</td>
-                              <td style="padding: 15px;"><strong>Welcome & Opening Remarks</strong></td>
-                           </tr>
-                           <tr>
-                              <td style="padding: 15px;">09:10</td>
-                              <td style="padding: 15px;"><strong>Keynote 1 – Ziqian Ning</strong></td>
-                           </tr>
-                           <tr>
-                              <td style="padding: 15px;">09:50</td>
-                              <td style="padding: 15px;"><strong>Keynote 2 – Dorien Herremans</strong></td>
-                           </tr>
-                           <tr class="warning" style="background-color: #fcf8e3;">
-                              <td style="padding: 15px;">10:30</td>
-                              <td style="padding: 15px;"><em>Break</em></td>
-                           </tr>
-                           <tr>
-                              <td style="padding: 15px; vertical-align: top;">10:40</td>
-                              <td style="padding: 15px;">
-                                 <strong>Oral Presentations</strong> (15 min talk + 5 min Q&amp;A)
-                                 <div style="margin-top: 15px;">
-                                    <p style="margin-bottom: 10px;">
-                                       <span class="label label-primary">10:40</span>
-                                       <strong>LLMs can read music, but struggle to hear it: An evaluation of core music perception tasks</strong><br/>
-                                       <span style="font-size: 0.9em; color: #666;">
-                                       Brandon Carone, Iran Roman, Pablo Ripollés
-                                       </span>
-                                    </p>
-                                    <p style="margin-bottom: 10px;">
-                                       <span class="label label-primary">11:00</span>
-                                       <strong>Conditional Vocal Timbral Technique Conversion via Embedding-Guided Dual Attribute Modulation</strong><br/>
-                                       <span style="font-size: 0.9em; color: #666;">
-                                       Ting-Chao Hsu, Yi-Hsuan Yang
-                                       </span>
-                                    </p>
-                                    <p style="margin-bottom: 10px;">
-                                       <span class="label label-primary">11:20</span>
-                                       <strong>The Circle of Fifths as Latent Geometry in Bach's Well-Tempered Clavier</strong><br/>
-                                       <span style="font-size: 0.9em; color: #666;">
-                                       Najla Sadek, Joseph Bakarji
-                                       </span>
-                                    </p>
-                                    <p style="margin-bottom: 0;">
-                                       <span class="label label-primary">11:40</span>
-                                       <strong>TS-RaMIA: Membership Inference Attacks for Symbolic Music Generation Models</strong><br/>
-                                       <span style="font-size: 0.9em; color: #666;">
-                                       Yuxuan Liu, Rui Sang, Peihong Zhang, Zhixin Li, Kunyang Zhang, Shengyuan He, Ye Li, Kaiyi Xu, Shengchen Li
-                                       </span>
-                                    </p>
-                                 </div>
-                              </td>
-                           </tr>
-                           <tr class="info" style="background-color: #d9edf7;">
-                              <td style="padding: 15px;">12:00</td>
-                              <td style="padding: 15px;"><em>Lunch</em></td>
-                           </tr>
-                           <tr>
-                              <td style="padding: 15px; vertical-align: top;">12:30</td>
-                              <td style="padding: 15px;">
-                                 <strong>Poster Session</strong><br/>
-                                 <span style="font-size: 0.95em; color: #666;">
-                                 Katong / Siglap Room
-                                 </span>
-                                 <ul style="list-style-type: none; padding-left: 0; margin-top: 15px;">
-                                    <li style="margin-bottom: 15px;">
-                                       <strong>Low-Resource Rhythm Learning of South Asian Beat Structures: Machine Learning Approaches to Nattuvangam</strong><br/>
-                                       <span style="font-size: 0.9em; color: #666;">
-                                       Ankitha Sudarshan, Atharva Vikas Jadhav, Rohini Srihari
-                                       </span>
-                                    </li>
-                                    <li style="margin-bottom: 15px;">
-                                       <strong>A Novel Diffusion Model Based Approach for Sleep Therapeutic Music Generation</strong><br/>
-                                       <span style="font-size: 0.9em; color: #666;">
-                                       Timo Hromadka, Kevin Monteiro, Sam Nallaperuma
-                                       </span>
-                                    </li>
-                                    <li style="margin-bottom: 15px;">
-                                       <strong>Investigating Timbre Representations in CLAP Across Modalities via Perturbations</strong><br/>
-                                       <span style="font-size: 0.9em; color: #666;">
-                                       Devyani Hebbar, Brian McFee
-                                       </span>
-                                    </li>
-                                    <li style="margin-bottom: 15px;">
-                                       <strong>Neural Codec Language Model for Controllable Timbre Transfer in Music Synthesis</strong><br/>
-                                       <span style="font-size: 0.9em; color: #666;">
-                                       Sheldon Liu, Tianyu Liu, Deepak Dalakoti, Adithya Suresh, Yueying Teng, Xuefeng Liu, Atanu Roy, Randeep Bhatia, Daniel Hatadi, Prabhjeet Ghuman
-                                       </span>
-                                    </li>
-                                    <li style="margin-bottom: 15px;">
-                                       <strong>Encoder-Only Transformers for Melodic Harmonization: Representation Emergence and Inference Strategies</strong><br/>
-                                       <span style="font-size: 0.9em; color: #666;">
-                                       Maximos Kaliakatsos-Papakostas, Dimos Makris, Konstantinos Soiledis, Konstantinos Theodoros Tsamis
-                                       </span>
-                                    </li>
-                                    <li style="margin-bottom: 15px;">
-                                       <strong>SingingSDS: A Singing-Capable Spoken Dialogue System for Conversational Roleplay Applications</strong><br/>
-                                       <span style="font-size: 0.9em; color: #666;">
-                                       Jionghao Han, Jiatong Shi, Masao Someki, Yuxun Tang, Liulan, Yiwen Zhao, Wenhao Feng, Shinji Watanabe
-                                       </span>
-                                    </li>
-                                    <li style="margin-bottom: 15px;">
-                                       <strong>Postscript on the Musics of Control</strong><br/>
-                                       <span style="font-size: 0.9em; color: #666;">
-                                       Yinuo Chen
-                                       </span>
-                                    </li>
-                                    <li style="margin-bottom: 15px;">
-                                       <strong>Artificial Dancing Intelligence: Neural Cellular Automata for Visual Performance of Music</strong><br/>
-                                       <span style="font-size: 0.9em; color: #666;">
-                                       Carlos Mariano Salcedo, Eran Egozy
-                                       </span>
-                                    </li>
-                                    <li style="margin-bottom: 0;">
-                                       <strong>Silence as Music: Controllable and Interpretable AI for Strategic Silence Placement</strong><br/>
-                                       <span style="font-size: 0.9em; color: #666;">
-                                       Gokul Srinath Seetha Ram
-                                       </span>
-                                    </li>
-                                 </ul>
-                              </td>
-                           </tr>
-                           <tr>
-                              <td style="padding: 15px;">14:00</td>
-                              <td style="padding: 15px;"><strong>Keynote 3 – Harry Tan</strong></td>
-                           </tr>
-                           <tr>
-                              <td style="padding: 15px;">14:40</td>
-                              <td style="padding: 15px;"><strong>Keynote 4 – Ethan Manilow</strong></td>
-                           </tr>
-                           <tr class="warning" style="background-color: #fcf8e3;">
-                              <td style="padding: 15px;">15:20</td>
-                              <td style="padding: 15px;"><em>Break</em></td>
-                           </tr>
-                           <tr>
-                              <td style="padding: 15px;">15:30</td>
-                              <td style="padding: 15px;"><strong>Panel Discussion / Open Discussion</strong></td>
-                           </tr>
-                           <tr>
-                              <td style="padding: 15px;">16:30</td>
-                              <td style="padding: 15px;"><strong>Networking</strong></td>
-                           </tr>
-                        </tbody>
-                     </table>
-                  </div>
-               </div>
-            </div>
-         </div>
+    </section>
+    <div class="event-strip">
+      <div><span class="meta-label">The focus</span><strong>Human agency &amp; music AI</strong></div>
+      <div><span class="meta-label">The setting</span><strong>In person · AAAI-27, Montréal</strong></div>
+      <div><span class="meta-label">Workshop window</span><strong>22–23 February 2027</strong><span class="small">Exact EAIM day to be announced</span></div>
+      <div><span class="meta-label">This edition</span><strong>Call for papers</strong><span class="small">OpenReview link: TBD</span></div>
+    </div>
+    <section class="section section-split container" id="overview" aria-labelledby="overview-title">
+      <div class="section-heading"><p class="eyebrow">01 / The workshop</p><h2 id="overview-title">Human creativity <br>at the centre.</h2></div>
+      <div class="prose">
+        <p class="lead">How can we design AI music systems that strengthen human creative agency through meaningful control, interaction and collaboration?</p>
+        <p>The 2nd Workshop on Emerging AI Technologies for Music brings together researchers and practitioners to explore how AI can support and extend human creativity. Our focus spans the ways musicians, producers, composers and educators direct and shape AI systems throughout musical practice.</p>
+        <p>We welcome work on interactive generation, personalisation, multimodal interfaces, creative workflows, evaluation and computational creativity. We also invite discussion of authorship, attribution, consent, accessibility and the representation of diverse musical traditions.</p>
+        <p>EAIM 2027 builds on the inaugural workshop at AAAI-26 in Singapore. This edition keeps human intention, critical judgement and artistic responsibility central to the conversation.</p>
       </div>
-      <!-- Call for Papers -->
-      <div class="cfp-container section-container">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12 cfp section-description wow fadeIn">
-                  <h3>Call for Papers</h3>
-                  <div class="divider-1 wow fadeInUp"><span></span></div>
-                  <p>
-                     <b>Submission Requirements</b><br/>
-                     We welcome submissions of original research, creative systems, and critical perspectives on emerging AI technologies for music. 
-                     Contributions may include theoretical work, empirical studies, system designs, evaluations, or artistic explorations. 
-                     While implemented systems and demonstrations are encouraged, strong conceptual and analytical contributions without a prototype are also welcome. 
-                     We particularly value submissions that emphasize controllability, interpretability, explainability, personalization, human-AI interaction, and collaboration in music systems.
-                     <!-- Conceptual designs without evidence of implementation are discouraged. We particularly welcome submissions that emphasize controllability, interpretability, explainability, personalization, human–AI interaction, and collaboration in music systems. -->
-                  </p>
-                  <p><b>Topics of Interest include, but are not limited to:</b></p>
-                  <ul style="font-size:1.5em; text-align:left; list-style-type:none">
-                     <li><span class="icon_plus list-icon"></span>Music composition and generation</li>
-                     <li><span class="icon_plus list-icon"></span>Foundational music models</li>
-                     <li><span class="icon_plus list-icon"></span>Music production workflows</li>
-                     <li><span class="icon_plus list-icon"></span>Music education and pedagogy</li>
-                     <li><span class="icon_plus list-icon"></span>Music performance systems</li>
-                     <li><span class="icon_plus list-icon"></span>Music information retrieval</li>
-                     <li><span class="icon_plus list-icon"></span>Sound design and audio production</li>
-                     <li><span class="icon_plus list-icon"></span>Music therapy applications</li>
-                     <li><span class="icon_plus list-icon"></span>Music transcription and analysis</li>
-                     <li><span class="icon_plus list-icon"></span>Singing voice synthesis</li>
-                     <li><span class="icon_plus list-icon"></span>Evaluation of music AI systems</li>
-                     <li><span class="icon_plus list-icon"></span>Music recommender systems</li>
-                     <li><span class="icon_plus list-icon"></span>Musical instrument design</li>
-                     <li><span class="icon_plus list-icon"></span>Robotic musicianship</li>
-                     <li><span class="icon_plus list-icon"></span>Optical music recognition</li>
-                     <li><span class="icon_plus list-icon"></span>Music theory and musicology</li>
-                     <li><span class="icon_plus list-icon"></span>Ethical, cultural and societal implications</li>
-                     <li><span class="icon_plus list-icon"></span>Accessibility and inclusion in music AI</li>
-                  </ul>
-                  <script>
-                     const iframe = document.getElementById("countdown_iframe_492508");
-                     
-                     iframe.addEventListener("load", () => {
-                       try {
-                         // Access the iframe's document
-                         const doc = iframe.contentDocument || iframe.contentWindow.document;
-                         if (doc && doc.body && doc.body.innerText.includes("Incorrect embedding code")) {
-                           iframe.style.display = "none";
-                           console.warn("Countdown iframe hidden — incorrect embed detected.");
-                         }
-                       } catch (e) {
-                         // Cross-origin protection: if we can’t access the content, do nothing
-                         console.log("Unable to inspect iframe content (cross-origin).");
-                       }
-                     });
-                  </script>
-                  <p>
-                     <b>Important Dates</b><br/>
-                     Paper Submission Deadline: <s>24 October 2025</s> <b>Extended to 29 October 2025 (Wednesday)</b><br/>
-                     Acceptance/Rejection Notice: 14 November 2025<br/>
-                     Camera-Ready Deadline: 14 December 2025<br/>
-                     Workshop Date: 26th January 2026 (1 day workshop)
-                  </p>
-                  <p>
-                     <b>Publishing Venue</b><br/>
-                     Proceedings will be published as a volume in Proceedings of Machine Learning Research (PMLR).
-                  </p>
-                  <p>
-                     <b>Submission Instructions</b><br/>
-                     Paper format: Maximum of 11 pages (excluding references). Please follow the PMLR format using this template: 
-                     <a href="https://www.overleaf.com/latex/templates/eaim-template/bvqzcsngcxwz" target="_blank" style="font-weight:bold;  color:#2BA560; ">
-                     EAIM Template on Overleaf
-                     </a>
-                     <br/><br/>
-                     Submission Portal: 
-                     <a href="https://openreview.net/group?id=AAAI.org/2026/Workshop/EAIM" target="_blank" style="font-weight:bold;  color:#2BA560; ;">
-                     OpenReview – EAIM Workshop
-                     </a>
-                     <br/>
-                     Note: To sign up for OpenReview, you must use a <span style="color:#F76C3B; font-weight:bold;">university or institution email address</span>. 
-                     If you are not affiliated with any institution, account creation with a personal email may take up to 2 weeks so please plan accordingly. 
-                  </p>
-                  <p>
-                     <b>Submission Policies</b><br/>
-                     <b>
-                     Submissions will follow a <span style="color:#F76C3B;">double-blind</span> policy and must be prepared for anonymous review; authors should remove names, affiliations, and any links or references that could reveal their identity.
-                     </b> <br/><br/>
-                     Authors must ensure that all submissions are original and have not been published elsewhere or concurrently submitted to another venue. 
-                     Plagiarism in any form, including self-plagiarism, will result in desk rejection. <br/><br/>
-                     If generative AI tools are used to produce substantial portions of the writing, analysis, or figures, their use must be clearly disclosed in the paper’s acknowledgments or methodology section. Authors remain fully responsible for the correctness, originality, and integrity of their submissions. <br/><br/>
-                     At least one author of each accepted paper must register and present the work at the workshop. 
-                  </p>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- Speakers -->
-      <div class="clients-container portfolio-container section-container" id="portfolio">
+    </section>
+    <section class="section section-tinted" id="cfp" aria-labelledby="cfp-title">
       <div class="container">
-         <div class="row">
-            <div class="col-sm-12 about section-description wow fadeIn">
-               <h3>Speakers</h3>
-               <div class="divider-1 wow fadeInUp"><span></span></div>
-            </div>
-         </div>
+        <div class="section-split">
+          <div class="section-heading"><p class="eyebrow">02 / Contribute</p><h2 id="cfp-title">Call for papers</h2><p>Research, creative systems <br>and critical perspectives.</p></div>
+          <div class="prose">
+            <p class="lead">We invite original contributions on emerging AI technologies for music, with a particular interest in human agency and collaborative creativity.</p>
+            <p>Submissions may include theoretical work, empirical studies, system designs, evaluations or artistic explorations. Implemented systems and demonstrations are encouraged; strong conceptual and analytical contributions are also welcome.</p>
+            <p>We particularly welcome work on controllability, interpretability, explainability, personalisation and human–AI interaction.</p>
+          </div>
+        </div>
+        <div class="topics-block">
+          <h3>Topics of interest</h3><p class="muted">Topics include, but are not limited to:</p>
+          <ul class="topics-list">
+            <li>Music composition and generation</li><li>Foundation models for music</li><li>Music production workflows</li><li>Music education and pedagogy</li><li>Music performance systems</li><li>Music information retrieval</li><li>Sound design and audio production</li><li>Music therapy applications</li><li>Music transcription and analysis</li><li>Singing voice synthesis</li><li>Evaluation of music AI systems</li><li>Music recommender systems</li><li>Musical instrument design</li><li>Robotic musicianship</li><li>Optical music recognition</li><li>Music theory and musicology</li><li>Ethical, cultural and societal implications</li><li>Accessibility and inclusion in music AI</li>
+          </ul>
+        </div>
+        <div class="submission-grid">
+          <div class="submission-main">
+            <h3>Preparing your submission</h3>
+            <dl class="requirements">
+              <div><dt>Format &amp; length</dt><dd>Up to <strong>11 pages, excluding references</strong>, in PMLR format. Use the <a href="https://www.overleaf.com/latex/templates/eaim-template/bvqzcsngcxwz">EAIM template on Overleaf <span aria-hidden="true">↗</span></a>.</dd></div>
+              <div><dt>Anonymous review</dt><dd>Submissions follow a <strong>double-blind</strong> review process. Remove author names, affiliations and any links or references that reveal author identities.</dd></div>
+              <div><dt>Original work</dt><dd>Papers must be original, unpublished and not concurrently submitted to another venue. Plagiarism, including self-plagiarism, may result in desk rejection.</dd></div>
+              <div><dt>Use of generative AI</dt><dd>Disclose substantial use of generative AI in the writing, analysis or figures. Authors remain responsible for the correctness, originality and integrity of their submissions.</dd></div>
+              <div><dt>Presentation</dt><dd>At least one author of each accepted paper must register and present in person. AAAI-27 does not permit virtual presentations for workshops.</dd></div>
+            </dl>
+          </div>
+          <aside class="submission-aside" aria-labelledby="submit-title">
+            <span class="eyebrow">Submission portal</span><h3 id="submit-title">OpenReview</h3>
+            <p>The EAIM 2027 submission link will be announced here.</p><span class="pending-label">Submission link: TBD</span>
+            <div class="aside-rule"></div><h4>Review &amp; proceedings</h4>
+            <p>Each paper will receive three independent reviews. Assessment will consider novelty, technical soundness, reproducibility, clarity and relevance.</p>
+            <p>We plan to submit accepted papers to the <strong>Proceedings of Machine Learning Research (PMLR)</strong>. Publication arrangements will be confirmed.</p>
+            <a class="text-link" href="#faq">Submission questions <span aria-hidden="true">↓</span></a>
+          </aside>
+        </div>
       </div>
-      <!-- Example Speaker -->
-      <div class="block-2-container section-container about-block-2-container">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-4 block-2-box block-2-left block-2-media wow fadeInLeft">
-                  <div class="block-2-img-container">
-                     <img src="assets/img/about/ethan.png" alt="Ethan Manilow">
-                     <div class="img-container-line line-1"></div>
-                     <div class="img-container-line line-2"></div>
-                     <div class="img-container-line line-3"></div>
-                  </div>
-               </div>
-               <div class="col-sm-8 block-2-box block-2-right wow fadeInUp">
-                  <h3>Dr. Ethan Manilow / <span>Google DeepMind</span></h3>
-                  <p><b>Bio</b> Ethan is currently a Senior Research Scientist at Google DeepMind on the Magenta Team. He finished his PhD in Computer Science working under Bryan Pardo in the Interactive Audio Lab at Northwestern University. During his PhD, he spent two years as a Student Researcher with Magenta and prior to that, he spent a year and half as Student Researcher at MERL on the Speech and Audio Team. His research centers on making machine learning systems that listen to and understand musical audio in an effort to make tools that can better assist artists.  
-                  </p>
-               </div>
-            </div>
-         </div>
+    </section>
+    <section class="section section-split container" id="dates" aria-labelledby="dates-title">
+      <div class="section-heading"><p class="eyebrow">03 / Key milestones</p><h2 id="dates-title">Important dates</h2><p>The planned EAIM timeline. <br>Exact dates will be updated here.</p></div>
+      <div>
+        <!-- The organiser has confirmed that the proposal's early October deadline
+             should remain provisional. Do not substitute AAAI's general deadline. -->
+        <dl class="date-list">
+          <div class="date-featured"><dt>Paper submission deadline <span class="date-note">Provisional · exact date TBD</span></dt><dd>Early October 2026</dd></div>
+          <div><dt>Review period</dt><dd>October–November 2026</dd></div>
+          <div><dt>Acceptance notifications</dt><dd><time datetime="2026-12-02">2 December 2026</time></dd></div>
+          <div><dt>Camera-ready deadline <span class="date-note">Exact date TBD</span></dt><dd>January 2027</dd></div>
+          <div><dt>AAAI-27 workshop programme <span class="date-note">Exact EAIM day to be announced</span></dt><dd>22–23 February 2027</dd></div>
+        </dl>
+        <p class="small muted date-footnote">The workshop will take place during the <a href="https://aaai.org/conference/aaai/aaai-27/workshops-call/">AAAI-27 workshop programme</a> in Montréal. The assigned day, room and detailed programme will be announced later.</p>
       </div>
-      <!-- Speaker: Hao Hao Tan -->
-      <div class="block-2-container section-container section-container-gray about-block-2-container">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-8 block-2-box block-2-left wow fadeInLeft">
-                  <h3>Hao Hao Tan / <span>Universal Music Group</span></h3>
-                  <p>
-                     <b>Bio</b> Hao Hao Tan is an AI & Audio Scientist at Universal Music Group, a member of the Music and Audio Machine Learning Lab (MAML), the first ever Machine Learning R&D group in the recorded music industry. MAML’s mission is to invent and build next-generation AI/ML tools to support and empower artists and industry professionals globally.  His work has been published in leading conferences including ISMIR, ICML & WASPAA.
-                  </p>
-               </div>
-               <div class="col-sm-4 block-2-box block-2-right wow fadeInLeft">
-                  <div class="block-2-img-container">
-                     <img src="assets/img/about/hao_hao_tan.jpeg" alt="Hao Hao Tan">
-                     <div class="img-container-line line-1"></div>
-                     <div class="img-container-line line-2"></div>
-                     <div class="img-container-line line-3"></div>
-                  </div>
-               </div>
-            </div>
-         </div>
+    </section>
+    <section class="section section-tinted" id="speakers" aria-labelledby="speakers-title">
+      <div class="container">
+        <div class="section-top"><div><p class="eyebrow">04 / Perspectives</p><h2 id="speakers-title">Keynote speakers</h2></div><p>Four voices from creative AI research, <br>musical practice and creator rights.</p></div>
+        <div class="speaker-grid">
+          <article class="speaker-card">
+            <div class="portrait"><img src="assets/img/2027/philippe-pasquier.webp" alt="Philippe Pasquier" width="800" height="800" loading="lazy"></div>
+            <h3>Philippe Pasquier</h3><p class="affiliation">Simon Fraser University</p><p>Professor and director of the Metacreation Lab for Creative AI. His work spans generative systems, computational creativity and artistic practice.</p><a class="text-link" href="https://www.metacreation.net/philippepasquier/home">Profile <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="speaker-card">
+            <div class="portrait portrait-gabriel"><img src="assets/img/2027/gabriel-vigliensoni.webp" alt="Gabriel Vigliensoni" width="800" height="1000" loading="lazy"></div>
+            <h3>Gabriel Vigliensoni</h3><p class="affiliation">Music artist &amp; researcher · Montréal</p><p>Electronic music artist, performer and music technology researcher. His practice explores experimental workflows and machine learning for music-making.</p><a class="text-link" href="https://vigliensoni.com/about/">Profile <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="speaker-card">
+            <div class="portrait"><img src="assets/img/2027/dominic-thibault.webp" alt="Dominic Thibault" width="181" height="181" loading="lazy"></div>
+            <h3>Dominic Thibault</h3><p class="affiliation">Université de Montréal</p><p>Associate Professor and co-director of Laboratoire Formes·Ondes. He investigates human–computer interaction, digital music practices and musical creation.</p><a class="text-link" href="https://domthibaultsound.wordpress.com/">Profile <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="speaker-card">
+            <div class="portrait portrait-julia"><img src="assets/img/2027/julia-werneburg.webp" alt="Julia Werneburg" width="800" height="532" loading="lazy"></div>
+            <h3>Julia Werneburg</h3><p class="affiliation">SOCAN</p><p>Legal counsel with over a decade of experience in intellectual property and creator rights. Her work covers government relations, music licensing and copyright enforcement.</p><a class="text-link" href="https://www.digitalmediaatthecrossroads.com/speakers.php">Profile <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+        <p class="small muted speaker-note">Talk titles and abstracts will be announced with the programme. Photo credits and sources are listed in the <a href="https://github.com/AMAAI-Lab/EAIM2027/blob/main/README.md#image-sources">website credits</a>.</p>
       </div>
-      <!-- Speaker: Prof. Dorien Herremans -->
-      <div class="block-2-container section-container about-block-2-container">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-4 block-2-box block-2-left block-2-media wow fadeInLeft">
-                  <div class="block-2-img-container">
-                     <img src="assets/img/about/dorien.png" alt="Prof. Dorien Herremans">
-                     <div class="img-container-line line-1"></div>
-                     <div class="img-container-line line-2"></div>
-                     <div class="img-container-line line-3"></div>
-                  </div>
-               </div>
-               <div class="col-sm-8 block-2-box block-2-right wow fadeInUp">
-                  <h3>Prof. Dorien Herremans / <span>Singapore University of Technology and Design</span></h3>
-                  <p>
-                     <b>Bio</b> Dorien is an Associate Professor at Singapore University of Technology and Design (SUTD), where she leads the Audio, Music, and AI (AMAAI) Lab. Before joining SUTD, she was a Marie Sklodowska-Curie Postdoctoral Fellow at the Centre for Digital Music at Queen Mary University of London. She was also nominated on the Singapore 100 Women in Tech list in 2021, and one of the top 30 SAIL Award (Super AI Leader) Finalists in 2024 at the World AI Conference.
-                  </p>
-               </div>
-            </div>
-         </div>
+    </section>
+    <!-- SCHEDULE: Intentionally unpublished while EAIM 2027 is at the CFP stage.
+    <section class="section container" id="schedule" aria-labelledby="schedule-title">
+      <p class="eyebrow">The programme</p>
+      <h2 id="schedule-title">Workshop schedule</h2>
+      <p>The schedule will be added once the workshop day and programme are confirmed.</p>
+    </section>
+    -->
+    <section class="section container" id="organisers" aria-labelledby="organisers-title">
+      <div class="section-top"><div><p class="eyebrow">05 / The people behind EAIM</p><h2 id="organisers-title">Organising committee</h2></div><p>Queen Mary University of London <br>&amp; Singapore University of Technology and Design</p></div>
+      <div class="organiser-list">
+        <article class="organiser"><span class="organiser-number" aria-hidden="true">01</span><div><h3>Keshav Bhandari</h3><p class="affiliation">Queen Mary University of London</p><a class="small text-link" href="https://scholar.google.com/citations?user=1aVkR1QAAAAJ">Google Scholar <span aria-hidden="true">↗</span></a></div><p>PhD researcher at the Centre for Digital Music. His research explores neuro-symbolic music composition, musical structure and controllability. Lead organiser of EAIM 2026 and main contact for EAIM 2027.</p></article>
+        <article class="organiser"><span class="organiser-number" aria-hidden="true">02</span><div><h3>Shuoyang Zheng</h3><p class="affiliation">Queen Mary University of London</p><a class="small text-link" href="https://www.jasperzheng.cc/">Website <span aria-hidden="true">↗</span></a></div><p>PhD researcher at the Centre for Digital Music and Associate Lecturer at the Creative Computing Institute, University of the Arts London. His work has been exhibited at Sónar+D and IRCAM Forum.</p></article>
+        <article class="organiser"><span class="organiser-number" aria-hidden="true">03</span><div><h3>Jordie Shier</h3><p class="affiliation">Queen Mary University of London</p><a class="small text-link" href="https://jordieshier.com/">Website <span aria-hidden="true">↗</span></a></div><p>PhD researcher in the Artificial Intelligence and Music programme. His research explores new interaction methods for audio synthesis in collaboration with Ableton.</p></article>
+        <article class="organiser"><span class="organiser-number" aria-hidden="true">04</span><div><h3>Simon Colton</h3><p class="affiliation">Queen Mary University of London</p><a class="small text-link" href="https://scholar.google.com/citations?user=L6GPVfcAAAAJ">Google Scholar <span aria-hidden="true">↗</span></a></div><p>Professor of Computational Creativity, AI and Games. His research investigates systems that take on creative responsibilities in generative music, art and science.</p></article>
+        <article class="organiser"><span class="organiser-number" aria-hidden="true">05</span><div><h3>Dorien Herremans</h3><p class="affiliation">Singapore University of Technology and Design</p><a class="small text-link" href="https://dorienherremans.com/team">AMAAI Lab <span aria-hidden="true">↗</span></a></div><p>Associate Professor and head of the Audio, Music, and AI (AMAAI) Lab. Previously a Marie Skłodowska-Curie Postdoctoral Fellow at the Centre for Digital Music, Queen Mary University of London.</p></article>
       </div>
-      <!-- Speaker: Ziqian Ning -->
-      <div class="block-2-container section-container about-block-2-container">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-8 block-2-box block-2-left wow fadeInLeft">
-                  <h3>Ziqian Ning / <span>ByteDance-Seed & ASLP@NPU</span></h3>
-                  <p>
-                     <b>Bio</b> Ziqian Ning is an AI Research Scientist at ByteDance-Seed, where he develops large-scale music generation models. His research focuses on generative AI for music and speech, with expertise spanning music generation, voice conversion, and text-to-speech synthesis. Prior to ByteDance, he worked at Microsoft Azure Speech and Netease Fuxi AI Lab, developing real-time voice conversion systems and expressive speech technologies. He holds a Master's degree from Northwestern Polytechnical University under Prof. Lei Xie. His work has been published at leading conferences including AAAI, ICASSP, and INTERSPEECH. Notable contributions include DiffRhythm, the first diffusion-based model for end-to-end full-length song generation, and the DualVC series for low-latency streaming voice conversion. His team achieved first place in the Singing Voice Conversion Challenge 2023, demonstrating human-level naturalness. He continues to explore how AI can transform music creation and empower artists.
-                  </p>
-               </div>
-               <div class="col-sm-4 block-2-box block-2-right wow fadeInLeft">
-                  <div class="block-2-img-container">
-                     <img src="assets/img/about/Ziqian_Ning.jpg" alt="Ziqian Ning">
-                     <div class="img-container-line line-1"></div>
-                     <div class="img-container-line line-2"></div>
-                     <div class="img-container-line line-3"></div>
-                  </div>
-               </div>
-            </div>
-         </div>
+      <details class="committee-details"><summary>Programme committee</summary><div class="committee-content"><p>The organising committee also serves as proceedings editors and reviewers. Additional programme committee members:</p><ul class="committee-list"><li>Mathieu Barthet <span>Queen Mary University of London</span></li><li>Abhinaba Roy <span>Singapore University of Technology and Design</span></li><li>Benjamin Hayes <span>Sony CSL, Paris</span></li><li>Jaeyong Kang <span>Singapore University of Technology and Design</span></li><li>Berker Banar <span>Ellison Institute of Technology Oxford</span></li></ul><p class="small muted">Further programme committee members will be announced.</p></div></details>
+    </section>
+    <section class="archive-section" aria-labelledby="archive-title">
+      <div class="container archive-grid">
+        <div class="volume-art" aria-hidden="true"><span>PROCEEDINGS OF<br>MACHINE LEARNING RESEARCH</span><strong>303</strong><span>EAIM 2026 / SINGAPORE</span></div>
+        <div><p class="eyebrow">Previously at EAIM</p><h2 id="archive-title">Explore the first edition.</h2><p>The inaugural workshop took place at AAAI-26 in Singapore on 26 January 2026. Read the research in PMLR Volume 303, with work on music generation, controllability, interaction and human–AI creativity.</p><div class="archive-actions"><a class="button button-light" href="https://proceedings.mlr.press/v303/">Read the proceedings <span aria-hidden="true">↗</span></a><a class="text-link" href="https://amaai-lab.github.io/EAIM2026/">EAIM 2026 website <span aria-hidden="true">↗</span></a></div></div>
       </div>
-      <!-- End of Speakers Section -->
-      <!-- Organizers -->
-      <div class="about-container section-container" id="about">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12 about section-description wow fadeIn">
-                  <h3>Organizers</h3>
-                  <div class="divider-1 wow fadeInUp"><span></span></div>
-               </div>
-            </div>
-         </div>
-         <!-- Example Organizer -->
-         <div class="block-2-container section-container about-block-2-container">
-            <div class="container">
-               <div class="row">
-                  <div class="col-sm-4 block-2-box block-2-left block-2-media wow fadeInLeft">
-                     <div class="block-2-img-container">
-                        <img src="assets/img/about/keshav.jpg" alt="Keshav Bhandari">
-                     </div>
-                  </div>
-                  <div class="col-sm-8 block-2-box block-2-right wow fadeInUp">
-                     <h3>Keshav Bhandari / <span>Queen Mary University of London</span></h3>
-                     <p>Keshav is a PhD candidate at the Centre for Digital Music (C4DM) at Queen Mary University of London supervised by Prof. Simon Colton. His research explores neuro-symbolic methods for music composition with a focus on musical structure and controllability. Prior to Queen Mary, he was part of the Interactive Audio Lab at Northwestern University, Evanston. Over the years, Keshav has published papers across conferences such as NeurIPS, AAAI, IJCNN and recently won the best paper award at EvoMUSART-25 (part of EvoStar). Keshav will be the main contact for the proposed AI music workshop at AAAI-26.</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- Organizer: Dr. Abhinaba Roy -->
-         <div class="block-2-container section-container section-container-gray about-block-2-container">
-            <div class="container">
-               <div class="row">
-                  <div class="col-sm-8 block-2-box block-2-left wow fadeInLeft">
-                     <h3>Dr. Abhinaba Roy / <span>Singapore University of Technology and Design</span></h3>
-                     <p>
-                        Abhinaba is a senior research fellow at Singapore University of Technology and Design. He received his Ph.D. in Computer Vision in 2019 from the Istituto Italiano di Tecnologia, Genoa, Italy. He has held positions in both industry and academia, focusing on developing and deploying practical AI solutions. In recent years, his research has increasingly focused on the intersection of AI and music, particularly in areas such as text-to-music generation, symbolic music creation, and multimodal music understanding. His work has been published in leading conferences including ISMIR, IJCNN, AAAI, and others.
-                     </p>
-                  </div>
-                  <div class="col-sm-4 block-2-box block-2-right block-2-media wow fadeInUp">
-                     <div class="block-2-img-container">
-                        <img src="assets/img/about/roy.jpeg" alt="Dr. Abhinaba Roy">
-                        <div class="img-container-line line-1"></div>
-                        <div class="img-container-line line-2"></div>
-                        <div class="img-container-line line-3"></div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- Organizer: Prof. Simon Colton -->
-         <div class="block-2-container section-container about-block-2-container">
-            <div class="container">
-               <div class="row">
-                  <div class="col-sm-4 block-2-box block-2-left block-2-media wow fadeInLeft">
-                     <div class="block-2-img-container">
-                        <img src="assets/img/about/simon.jpeg" alt="Prof. Simon Colton">
-                        <div class="img-container-line line-1"></div>
-                        <div class="img-container-line line-2"></div>
-                        <div class="img-container-line line-3"></div>
-                     </div>
-                  </div>
-                  <div class="col-sm-8 block-2-box block-2-right wow fadeInUp">
-                     <h3>Prof. Simon Colton / <span>Queen Mary University of London</span></h3>
-                     <p>
-                        Simon is a Professor of Computational Creativity, AI and Games in EECS at Queen Mary University of London. He was previously an EPSRC leadership fellow at Imperial College and Goldsmiths College, and held an ERA Chair at Falmouth University. He is an AI researcher with around 200 publications whose work has won national and international awards, and has led numerous EPSRC and EU-funded projects. He focuses specifically on questions of Computational Creativity, where researchers study how to engineer systems to take on creative responsibilities in generative music, arts and science projects. Prof. Colton has has written about the philosophy of Computational Creativity and led numerous public engagement projects.
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- Organizer: Prof. Dorien Herremans -->
-         <div class="block-2-container section-container section-container-gray about-block-2-container">
-            <div class="container">
-               <div class="row">
-                  <div class="col-sm-8 block-2-box block-2-left wow fadeInLeft">
-                     <h3>Prof. Dorien Herremans / <span>Singapore University of Technology and Design</span></h3>
-                     <p>
-                        Dorien is an Associate Professor at Singapore University of Technology and Design (SUTD), where she leads the Audio, Music, and AI (AMAAI) Lab. Before joining SUTD, she was a Marie Sklodowska-Curie Postdoctoral Fellow at the Centre for Digital Music at Queen Mary University of London. She was also nominated on the Singapore 100 Women in Tech list in 2021, and one of the top 30 SAIL Award (Super AI Leader) Finalists in 2024 at the World AI Conference.
-                     </p>
-                  </div>
-                  <div class="col-sm-4 block-2-box block-2-right block-2-media wow fadeInUp">
-                     <div class="block-2-img-container">
-                        <img src="assets/img/about/dorienh.jpg" alt="Prof. Dorien Herremans">
-                        <div class="img-container-line line-1"></div>
-                        <div class="img-container-line line-2"></div>
-                        <div class="img-container-line line-3"></div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- Add other organizers as before -->
+    </section>
+    <section class="section section-split container" id="faq" aria-labelledby="faq-title">
+      <div class="section-heading"><p class="eyebrow">06 / Before you get in touch</p><h2 id="faq-title">A few useful <br>answers.</h2><p>Registration, submissions <br>and attending the workshop.</p></div>
+      <div class="faq-list">
+        <details open><summary>How do I register for the workshop?</summary><div class="faq-answer"><p><strong>Registration is managed directly by AAAI.</strong> Please use the <a href="https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/">official AAAI-27 registration page</a> for registration options, fees and deadlines.</p><p>The EAIM organisers do not control registration, prices, payments or refunds, and cannot make exceptions to AAAI’s registration policies. Please direct these questions to <a href="mailto:aaaireg@aaai.org">AAAI registration at aaaireg@aaai.org</a>.</p></div></details>
+        <details><summary>Do I need to register for the main conference as well?</summary><div class="faq-answer"><p>AAAI offers <a href="https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/#ws-only">workshop-only registration</a> as well as workshop add-ons for technical programme registrants. Workshop-only registration does not include access to the main technical programme. Please check AAAI’s current options and fees directly.</p></div></details>
+        <details><summary>Can I attend without submitting a paper?</summary><div class="faq-answer"><p>AAAI’s workshop guidance allows additional conference attendees to register for workshops. Please check the available EAIM registration options and any attendance conditions with AAAI. Submitting a paper and registering to attend are separate processes.</p></div></details>
+        <details><summary>When and where will EAIM take place?</summary><div class="faq-answer"><p>EAIM will take place in Montréal, Canada, during the AAAI-27 workshop programme on <strong>22–23 February 2027</strong>. The exact EAIM day, room and timetable have not yet been announced. Please check this page for updates before making workshop-specific plans.</p></div></details>
+        <details><summary>Can I present remotely?</summary><div class="faq-answer"><p>No. <a href="https://aaai.org/conference/aaai/aaai-27/workshops-call/">AAAI-27’s workshop policy</a> requires in-person participation and does not permit virtual presentations. At least one author of each accepted paper must register and present the work in person.</p></div></details>
+        <details><summary>Where do I submit, and what format should I use?</summary><div class="faq-answer"><p>The <strong>OpenReview submission link is TBD</strong> and will be added here. Prepare an anonymous paper of up to 11 pages, excluding references, using the <a href="https://www.overleaf.com/latex/templates/eaim-template/bvqzcsngcxwz">EAIM PMLR template</a>. Please read the <a href="#cfp">submission instructions</a> and <a href="#dates">important dates</a> before submitting.</p></div></details>
+        <details><summary>Do I need a working system or demonstration?</summary><div class="faq-answer"><p>No. We welcome strong theoretical, conceptual and analytical contributions, alongside empirical studies, system designs and artistic explorations. Submissions should make a clear contribution relevant to the workshop themes.</p></div></details>
+        <details><summary>Will accepted papers be published?</summary><div class="faq-answer"><p>We plan to submit accepted papers to PMLR, subject to confirmation of the publication arrangements. The previous edition’s proceedings are already available in <a href="https://proceedings.mlr.press/v303/">PMLR Volume 303</a>.</p></div></details>
+        <details><summary>Who can help with visas and travel?</summary><div class="faq-answer"><p>Use AAAI’s official <a href="https://aaai.org/conference/aaai/aaai-27/visa-letters-of-invitation/">visa invitation guidance</a> and <a href="https://aaai.org/conference/aaai/aaai-27/accommodation/">accommodation and travel information</a>. Please contact AAAI for conference registration and invitation-letter queries.</p></div></details>
       </div>
-      <!-- Programme Committee -->
-      <div class="about-container section-container" id="committee">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12 about section-description wow fadeIn">
-                  <h3>Programme Committee</h3>
-                  <div class="divider-1 wow fadeInUp"><span></span></div>
-                  <p style="text-align:left; font-size:1.5em; line-height:1.6;">
-                     Prof. Dorien Herremans, Singapore University of Technology and Design <br/>
-                     Keshav Bhandari, PhD candidate, Queen Mary University of London <br/>
-                     Dr. Abhinaba Roy, Singapore University of Technology and Design <br/>
-                     Prof. Simon Colton, Queen Mary University of London <br/>
-                     Prof. Mathieu Barthet, Queen Mary University of London <br/>
-                     Dr. Jaeyong Kang, Singapore University of Technology and Design <br/>
-                     Dr. Jan Melechovsky, Singapore University of Technology and Design <br/>
-                     Dr. Berker Banar, Ellison Institute of Technology Oxford <br/>
-                     Benjamin Hayes, Sony CSL, Paris <br/>
-                     Shuoyang Zheng, PhD candidate, Queen Mary University of London <br/>
-                     Zixun Guo, PhD candidate, Queen Mary University of London <br/>
-                     Jordie Shier, PhD candidate, Queen Mary University of London <br/>
-                     Marco Pasini, PhD Candidate, Queen Mary University of London <br/>
-                     Sungkyun Chang, Research Assistant, Queen Mary University of London <br/>
-                     Tongyu Lu, PhD Candidate, Singapore University of Technology and Design <br/>
-                     Soumya Sai Vanka, PhD Candidate, Queen Mary University of London <br/>
-                     Renhang Liu, Research Assistant, Singapore University of Technology and Design <br/>
-                     Dimos Makris, Singapore University of Technology and Design <br/>
-                     Maojia Song, Singapore University of Technology and Design <br/>
-                     Weisheng Jin, Singapore University of Technology and Design <br/>
-                     Anuradha Chopra, PhD Candidate, Singapore University of Technology and Design <br/>
-                     Aditya Bhattacharjee, PhD Candidate, Queen Mary University of London <br/>
-                     Jingwei Zhao, National University of Singapore <br/>
-                     Viet Toan Dinh, PhD Candidate, Université de Lille <br/>
-                     Alexandre D'Hooge, Université de Lille <br/>
-                     Louis Bradshaw, PhD Candidate, Queen Mary University of London <br/>
-                     Francesca Ronchini, PhD Candidate, Polytechnic University of Milan <br/>
-                     <br/><br/>
-                  </p>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- Contact -->
-      <div class="block-2-container section-container contact-container" id="contact">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12 block-2 section-description wow fadeIn">
-                  <h3>Contact Us</h3>
-                  <div class="divider-1 wow fadeInUp"><span></span></div>
-                  <p>You can contact the organizers at: k [dot] bhandari [at] qmul.ac.uk</p>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- Footer -->
-      <footer>
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-12">
-                  <div class="scroll-to-top">
-                     <a href="#"><i class="fa fa-chevron-up"></i></a>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-sm-7 footer-copyright">
-                  &copy; 2026 Workshop on Emerging AI Technologies for Music (EAIM2026).
-               </div>
-            </div>
-         </div>
-      </footer>
-      <!-- Javascript -->
-      <script src="assets/js/jquery-1.11.1.min.js"></script>
-      <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-      <script src="assets/js/jquery.backstretch.min.js"></script>
-      <script src="assets/js/wow.min.js"></script>
-      <script src="assets/js/retina-1.1.0.min.js"></script>
-      <script src="assets/js/jquery.magnific-popup.min.js"></script>
-      <script src="assets/js/waypoints.min.js"></script>
-      <script src="assets/js/jquery.countTo.js"></script>
-      <script src="assets/js/masonry.pkgd.min.js"></script>
-      <script src="assets/js/scripts.js"></script>
-   </body>
+    </section>
+    <section class="contact-section container" id="contact" aria-labelledby="contact-title">
+      <div><p class="eyebrow">Still have a workshop question?</p><h2 id="contact-title">Get in touch.</h2><p>Please read the FAQ above first. For questions about the CFP,<br class="desktop-break"> scope or programme, contact Keshav Bhandari.</p></div>
+      <div class="contact-action"><a class="button button-dark" href="mailto:k.bhandari@qmul.ac.uk">k.bhandari@qmul.ac.uk <span aria-hidden="true">↗</span></a><p class="small muted">For registration queries, please <a href="mailto:aaaireg@aaai.org">contact AAAI</a>.</p></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="#top">EAIM<span class="brand-year">2027</span></a><p>2nd Workshop on Emerging AI Technologies for Music</p><div><a href="https://aaai.org/conference/aaai/aaai-27/">AAAI-27 <span aria-hidden="true">↗</span></a><a href="#top">Back to top <span aria-hidden="true">↑</span></a></div></div></footer>
+</body>
 </html>
