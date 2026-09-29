@@ -29,7 +29,7 @@ Content is based on the submitted EAIM AAAI-27 proposal and the previous worksho
 - [AAAI's workshop call](https://aaai.org/conference/aaai/aaai-27/workshops-call/) confirms the 22–23 February 2027 workshop window, in-person presentations, and AAAI's responsibility for logistics. The exact EAIM day and room remain unannounced.
 - Submissions use the [EAIM 2027 OpenReview portal](https://openreview.net/group?id=AAAI.org/2027/Workshop/EAIM).
 - The schedule section is commented out in `index.html`. There is no visible schedule navigation item.
-- The 11-page limit, PMLR format and anonymous review follow the previous EAIM CFP. The **paper template is TBD**; the previous Overleaf template is no longer linked.
+- The 11-page limit, PMLR format and anonymous review follow the previous EAIM CFP. The [EAIM PMLR submission template](EAIM_template.zip) is available as a ZIP download. The PMLR volume number in the template will be provided upon acceptance.
 - Submitters must disclose in the paper’s acknowledgements or methodology section any use of generative AI tools to produce substantial portions of the writing, analysis, or figures. Authors remain fully responsible for correctness, originality and integrity.
 - PMLR publication for 2027 is described as planned, subject to confirmation. [Volume 303](https://proceedings.mlr.press/v303/) is the published 2026 volume.
 - The registration FAQ links to [AAAI registration](https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/). Registration, fees, payment, refund and policy questions are directed to AAAI, before the workshop contact is displayed.
