@@ -21,15 +21,15 @@ The previous theme's files and downloads are retained for reference, but the 202
 
 ## Content sources and pending updates
 
-Content is based on the submitted EAIM AAAI-27 proposal and the previous workshop website, with submission details updated by the organiser on 29 September 2026.
+Content is based on the submitted EAIM AAAI-27 proposal and the previous workshop website, with submission details updated by the organiser on 30 September 2026.
 
 - The four confirmed keynote speakers and five organisers come from the proposal. Backup speakers are not advertised.
-- The confirmed paper submission deadline is **28 October 2026**.
-- Reviews start after 28 October 2026. Decisions will be announced by 2 December 2026. Camera-ready: January 2027, exact date TBD.
+- The confirmed paper submission deadline is **6 November 2026 at 23:59 AoE (UTC−12)**.
+- Reviews start after 6 November 2026. Decisions will be announced by 2 December 2026. Camera-ready: January 2027, exact date TBD.
 - [AAAI's workshop call](https://aaai.org/conference/aaai/aaai-27/workshops-call/) confirms the 22–23 February 2027 workshop window, in-person presentations, and AAAI's responsibility for logistics. The exact EAIM day and room remain unannounced.
 - Submissions use the [EAIM 2027 OpenReview portal](https://openreview.net/group?id=AAAI.org/2027/Workshop/EAIM).
 - The schedule section is commented out in `index.html`. There is no visible schedule navigation item.
-- The 11-page limit, PMLR format and anonymous review follow the previous EAIM CFP. The [EAIM PMLR submission template](EAIM_template.zip) is available as a ZIP download. The PMLR volume number in the template will be provided upon acceptance.
+- Papers must be 8–11 pages, excluding references, with a strict maximum of 11 pages. PMLR format and anonymous review follow the previous EAIM CFP. The [EAIM PMLR submission template](EAIM_template.zip) is available as a ZIP download. The PMLR volume number in the template will be provided upon acceptance.
 - Submitters must disclose in the paper’s acknowledgements or methodology section any use of generative AI tools to produce substantial portions of the writing, analysis, or figures. Authors remain fully responsible for correctness, originality and integrity.
 - PMLR publication for 2027 is described as planned, subject to confirmation. [Volume 303](https://proceedings.mlr.press/v303/) is the published 2026 volume.
 - The registration FAQ links to [AAAI registration](https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/). Registration, fees, payment, refund and policy questions are directed to AAAI, before the workshop contact is displayed.
