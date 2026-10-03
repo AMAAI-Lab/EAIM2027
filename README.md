@@ -21,10 +21,10 @@ The previous theme's files and downloads are retained for reference, but the 202
 
 ## Content sources and pending updates
 
-Content is based on the submitted EAIM AAAI-27 proposal and the previous workshop website, with submission details updated by the organiser on 2 October 2026.
+Content is based on the submitted EAIM AAAI-27 proposal and the previous workshop website, with submission details updated by the organiser on 3 October 2026.
 
 - The three confirmed keynote speakers and five organisers come from the proposal. Philippe Pasquier is no longer able to join. Backup speakers are not advertised.
-- The programme committee section lists all 27 members from [EAIM 2026](https://amaai-lab.github.io/EAIM2026/) and is labelled as last year’s committee. Further programme committee members will be announced.
+- The programme committee section lists all 27 members from [EAIM 2026](https://amaai-lab.github.io/EAIM2026/) and is labelled as last year’s committee. The EAIM 2027 programme committee members will be announced later.
 - The confirmed paper submission deadline is **6 November 2026 at 23:59 AoE (UTC−12)**.
 - Reviews start after 6 November 2026. Decisions will be announced by 2 December 2026. Camera-ready: January 2027, exact date TBD.
 - [AAAI's workshop call](https://aaai.org/conference/aaai/aaai-27/workshops-call/) confirms the 22–23 February 2027 workshop window, in-person presentations, and AAAI's responsibility for logistics. The exact EAIM day and room remain unannounced.
