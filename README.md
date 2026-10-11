@@ -21,7 +21,7 @@ The previous theme's files and downloads are retained for reference, but the 202
 
 ## Content sources and pending updates
 
-Content is based on the submitted EAIM AAAI-27 proposal and the previous workshop website, with submission details updated by the organiser on 3 October 2026.
+Content is based on the submitted EAIM AAAI-27 proposal and the previous workshop website, with submission details updated by the organiser on 11 October 2026.
 
 - The three confirmed keynote speakers and five organisers come from the proposal. Philippe Pasquier is no longer able to join. Backup speakers are not advertised.
 - The programme committee section lists all 27 members from [EAIM 2026](https://amaai-lab.github.io/EAIM2026/) and is labelled as last year’s committee. The EAIM 2027 programme committee members will be announced later.
@@ -32,7 +32,8 @@ Content is based on the submitted EAIM AAAI-27 proposal and the previous worksho
 - The schedule section is commented out in `index.html`. There is no visible schedule navigation item.
 - Papers must be 8–11 pages, excluding references. PMLR format and anonymous review follow the previous EAIM CFP. The EAIM PMLR submission template is available on [Overleaf](https://www.overleaf.com/latex/templates/eaim-template/crzqhsvtpkhn) and as a [ZIP download](EAIM_template.zip). The PMLR volume number in the template will be provided upon acceptance.
 - Submitters must disclose in the paper’s acknowledgements or methodology section any use of generative AI tools to produce substantial portions of the writing, analysis, or figures. Authors remain fully responsible for correctness, originality and integrity.
-- PMLR publication for 2027 is described as planned, subject to confirmation. [Volume 303](https://proceedings.mlr.press/v303/) is the published 2026 volume.
+- PMLR publication for 2027 remains under discussion. If confirmed, accepted papers are expected to be archival in accordance with PMLR guidelines; a non-archival option has not been confirmed. [Volume 303](https://proceedings.mlr.press/v303/) is the published 2026 volume.
+- Preprints may be posted during review, but their template must contain no PMLR references. The EAIM submission must remain anonymous.
 - The registration FAQ links to [AAAI registration](https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/). Registration, fees, payment, refund and policy questions are directed to AAAI, before the workshop contact is displayed.
 - Additional official resources: [AAAI-27](https://aaai.org/conference/aaai/aaai-27/), [visa invitations](https://aaai.org/conference/aaai/aaai-27/visa-letters-of-invitation/), [accommodation and travel](https://aaai.org/conference/aaai/aaai-27/accommodation/).
 
