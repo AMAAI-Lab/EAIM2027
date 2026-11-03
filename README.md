@@ -21,9 +21,9 @@ The previous theme's files and downloads are retained for reference, but the 202
 
 ## Content sources and pending updates
 
-Content is based on the submitted EAIM AAAI-27 proposal and the previous workshop website, with submission details updated by the organiser on 19 October 2026.
+Content is based on the submitted EAIM AAAI-27 proposal and the previous workshop website, with submission details updated by the organiser on 3 November 2026.
 
-- The three confirmed keynote speakers and five organisers come from the proposal. Philippe Pasquier is no longer able to join. Backup speakers are not advertised.
+- The five organisers and three keynote speakers come from the proposal. Ilaria Manco (Google DeepMind) joins as the fourth confirmed keynote speaker; her biography and portrait come from [her personal website](https://ilariamanco.com/). Philippe Pasquier is no longer able to join. Backup speakers are not advertised.
 - The programme committee section lists all 27 members from [EAIM 2026](https://amaai-lab.github.io/EAIM2026/) and is labelled as last year’s committee. The EAIM 2027 programme committee members will be announced later.
 - The confirmed paper submission deadline is **6 November 2026 at 23:59 AoE (UTC−12)**.
 - Reviews start after 6 November 2026. Decisions will be announced by 2 December 2026. Camera-ready: January 2027, exact date TBD.
@@ -34,6 +34,7 @@ Content is based on the submitted EAIM AAAI-27 proposal and the previous worksho
 - Submitters must disclose in the paper’s acknowledgements or methodology section any use of generative AI tools to produce substantial portions of the writing, analysis, or figures. Authors remain fully responsible for correctness, originality and integrity.
 - PMLR publication for 2027 is confirmed. Accepted papers will be published as archival contributions in a PMLR volume, in accordance with PMLR guidelines. [Volume 303](https://proceedings.mlr.press/v303/) is the published 2026 volume.
 - Preprints may be posted during review, but their template must contain no PMLR references. The EAIM submission must remain anonymous.
+- Appendices are discouraged at initial submission. Essential appendices should be submitted separately as supplementary material in a single ZIP file; the paper must remain within the 11-page limit, excluding references. Appendices may be incorporated into the camera-ready paper after review, alongside revisions in response to reviewer feedback.
 - The registration FAQ links to [AAAI registration](https://aaai.org/conference/aaai/aaai-27/aaai-27-registration/). Registration, fees, payment, refund and policy questions are directed to AAAI, before the workshop contact is displayed.
 - Additional official resources: [AAAI-27](https://aaai.org/conference/aaai/aaai-27/), [visa invitations](https://aaai.org/conference/aaai/aaai-27/visa-letters-of-invitation/), [accommodation and travel](https://aaai.org/conference/aaai/aaai-27/accommodation/).
 
@@ -46,6 +47,7 @@ Portraits are used to identify the invited keynote speakers. Copyright remains w
 | Image | Source / credit |
 | --- | --- |
 | Philippe Pasquier | [Simon Fraser University profile](https://www.sfu.ca/siat/people/research-faculty/philippe-pasquier.html) |
+| Ilaria Manco | [Personal website](https://ilariamanco.com/); [linked profile portrait](https://avatars.githubusercontent.com/u/32579635?v=4) |
 | Gabriel Vigliensoni | [Artist's biography](https://vigliensoni.com/about/); photograph by **Gab del Canto** |
 | Dominic Thibault | [Université de Montréal research profile](https://recherche.umontreal.ca/chercheur/is/in32060/) |
 | Julia Werneburg | [Digital Media at the Crossroads speaker biography](https://www.digitalmediaatthecrossroads.com/speakers.php) |
