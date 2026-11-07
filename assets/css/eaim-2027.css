@@ -1552,3 +1552,26 @@ details[open]>summary::after {
     background:none;
   }
 }
+
+/* Submission deadline extension. */
+.deadline-announcement {
+  padding:16px 24px;
+  background:var(--accent);
+  color:var(--paper);
+  text-align:center;
+  font-size:14px;
+}
+.deadline-announcement a {
+  color:inherit;
+  text-decoration:underline;
+  margin-left:8px;
+}
+.previous-deadline {
+  display:block;
+  color:var(--muted);
+  font-size:13px;
+  font-weight:400;
+}
+.extended-deadline {
+  display:block;
+}
